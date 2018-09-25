@@ -1,6 +1,10 @@
 # WIP Merge check Plugin
 
-The purpose of the plugin is to provide a merge check that prevents merging a pull request in case if pull request title contains 'WIP:' substring. The Merge Check is implemented as a hook accessible under the Merge Checks section in the Project/Repo admin UI. The Merge Check is configurable on both Project and Repository level, following the same structure as the Bitbucket native Merge checks.
+The purpose of the plugin is to provide a merge check that prevents merging a pull request in case if pull request title contains 'WIP:' substring.
+
+The Merge Check is implemented as a hook accessible under the Merge Checks section in the Project/Repo admin UI.
+
+The Merge Check is configurable on both Project and Repository level, following the same structure as the Bitbucket native Merge checks.
 
 # Development
 
