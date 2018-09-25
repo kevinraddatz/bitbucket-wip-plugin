@@ -1,22 +1,6 @@
-# Plugin
+# WIP Merge check Plugin
 
-Plugin Name: **WIP blocker**
-
-# Purpose
-
-The purpose of the plugin is to provide a merge check that prevents
-merging a pull request in case a reviewer flags it using the _Needs Work_
-button.
-
-# Function
-
-The Merge Check is implemented as a hook accessible under the
-Merge Checks section in the Project/Repo admin UI
-
-The plugin evaluates all Reviewer statuses and if there is at least
-one **Needs work** status it will return **rejected**.
-The Merge Check is configurable on both Project and Repository level,
-following the same structure as the Bitbucket native Merge checks.
+The purpose of the plugin is to provide a merge check that prevents merging a pull request in case if pull request title contains 'WIP:' substring. The Merge Check is implemented as a hook accessible under the Merge Checks section in the Project/Repo admin UI. The Merge Check is configurable on both Project and Repository level, following the same structure as the Bitbucket native Merge checks.
 
 # Development
 
